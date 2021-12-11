@@ -8,7 +8,7 @@
 
 a = input("Enter a =")
 b = input("Enter b =")
-o = '+'
+o = '-'
 if o == '+' :
     c =  int(a) + int(b)
 elif o == '-':
