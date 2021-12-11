@@ -15,5 +15,7 @@ elif o == '-':
     c =  int(a) - int(b)
 elif o == '*':
     c =  int(a) * int(b)
+else : 
+    print ("error")
 print()
 print("a " + o + " b = " , c)
