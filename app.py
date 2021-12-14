@@ -8,14 +8,17 @@
 
 a = input("Enter a =")
 b = input("Enter b =")
-o = '-'
+o = '**'
 if o == '+' :
     c =  int(a) + int(b)
 elif o == '-':
     c =  int(a) - int(b)
 elif o == '*':
     c =  int(a) * int(b)
-else : 
-    print ("error")
+elif o == '//':
+    c = int(a) // int(b)
+elif o == '**':
+    c = int(a) ** int(b)
 print()
 print("a " + o + " b = " , c)
+
